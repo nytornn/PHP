@@ -1,4 +1,5 @@
 V PHP existuje kontrola vstupních a výstupních parametrů funkcí, kde lze deklarovat datový typ (např. int, float, ...). Typy se mohou také kombinovat (např. int|bool).
+
 Jestli je funkce naprogramována tak, aby očekávala specifický datový typ a namísto toho dostane jiný, často dojde k chybě.
 
 Následující tabulka shrnuje možné situace PHP:
