@@ -18,7 +18,7 @@ function testTypes($input)
     }
 }
 
-$inputs = [123, 123456, "hello", "hi", [1, 2, 3]];
+$inputs = [17845, 1.74, "Hello World!", false, [67, 1, 14]];
 $expectedTypes = ['integer', 'double', 'string', 'boolean', 'array'];
 $expectedOutputs = ['integer', 'double', 'string', 'boolean', 'array'];
 
