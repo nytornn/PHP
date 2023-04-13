@@ -31,7 +31,7 @@
 			<tr>
 				<td><?php echo $beer['name']; ?></td>
 				<td><?php echo $beer['brand']; ?></td>
-				<td><?php echo $beer['alcohol']; ?>%</td>
+				<td><?php echo $beer['alcohol']; ?></td>
 			</tr>
 		<?php endforeach; ?>
 	</table>
