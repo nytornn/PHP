@@ -26,7 +26,7 @@
 			<th>Brand</th>
 			<th>Alcohol</th>
 		</tr>
-		<?php require "beer.php"; ?>
+		<?php require "beers.php"; ?>
 		<?php foreach ($content_array as $beer): ?>
 			<tr>
 				<td><?php echo $beer['name']; ?></td>
