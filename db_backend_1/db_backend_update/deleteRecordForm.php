@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+<body>
 <header>
         <nav>
             <ul>
@@ -18,7 +19,6 @@
             </ul>
         </nav>
     </header>
-<body>
 <form action="deleteRecord.php" method="POST">
         <label for="delete_id">Vymaž záznam knihy</label>
         <input type="text" id="delete_id" name="delete_id" placeholder="Zadej ID"><br>
